@@ -2,7 +2,7 @@ let pattern = "https://ipapi.co/json*";
 
 function redirect(requestDetails) {
     return {
-        redirectUrl: "https://raw.githubusercontent.com/skynetcap/phoenix-extension/main/country"
+        redirectUrl: "https://raw.githubusercontent.com/skynetcap/phoenix-extension/master/country"
     };
 }
 
