@@ -1,12 +1,13 @@
 {
   "name": "Phoenix Access Extension",
   "version": "1.0",
-  "description": "Helps access Phoenix when you are on international airplane WiFi.",
+  "description": "Access Phoenix from a geo-blocked region.",
   "manifest_version": 2,
   "permissions": [
     "webRequest",
     "webRequestBlocking",
     "https://www.phoenix.trade/*",
+	"https://app.phoenix.trade/*",
     "https://ipapi.co/json*"
   ],
   "background": {
